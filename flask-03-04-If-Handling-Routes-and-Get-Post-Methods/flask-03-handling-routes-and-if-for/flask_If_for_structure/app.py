@@ -7,7 +7,7 @@ app = Flask(__name__)
 # and assign to the route of ('/')
 @app.route("/")
 def head():
-    first="This is my first conditions experience"
+    first="hersey güzel olacak"
     return render_template("index.html", message=first)
 
 
